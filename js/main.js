@@ -41,19 +41,12 @@ $(document).ready(function () {
     countryCode = iti.getSelectedCountryData().dialCode;
     countryName = iti.getSelectedCountryData().name;
     
-    // const body = {
-    //   from: data.email,
-    //   to: "logdigital@sothebysrealty.ae",
-    //   subject: "Ritz Carlton Residences Business Bay",
-    //   message: `Full name: ${data.fullname} \nEmail: ${data.email} \nTime: ${data.time} \nDate: ${data.date} \nPhone: ${data.phone} \nLanding page: Ritz Carlton Residences Business-Bay \n\nUTM Source: ${utm_source} \nUTM Medium: ${utm_medium} \nUTM Leadsource: ${utm_leadsource} \nUTM Campaign: ${utm_campaign} \nUTM Term: ${utm_term} \nUTM Content: ${utm_content} \n`
-    // };
-
     const body = {
       from: data.email,
       to: "logdigital@sothebysrealty.ae",
-      subject: "Ritz Carlton Residences Business Bay",
+      subject: "Jumeirah The Royal Villas",
       message: `Full name: ${data.fullname} \nEmail: ${data.email} \nTime: ${data.time} \nDate: ${data.date} \nPhone: ${data.phone} | Country code: ${countryCode} | Country name: ${countryName}
-      \nLanding page: Ritz Carlton Residences Business-Bay 
+      \nLanding page: Jumeirah The Royal Villas 
       \n\nUTM Source: ${utm_source} \nUTM Medium: ${utm_medium} \nUTM Leadsource: ${utm_leadsource} \nUTM Campaign: ${utm_campaign} \nUTM Term: ${utm_term} \nUTM Content: ${utm_content} \n`
     };
 
